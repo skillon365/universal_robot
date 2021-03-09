@@ -6,4 +6,4 @@ FROM gitpod/workspace-full-vnc
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-sudo apt-get install ros-melodic-universal-robot
+RUN sudo apt-get install ros-melodic-universal-robot
